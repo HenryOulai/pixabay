@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Two (2) .NET Developer Student at Teknikhögskolan re-making Pixabay for School Assignment 2022. Re-Created by Frida Westerdahl and Fredrik Lam.">
+
+    <script src="script.js" defer></script>
+
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/icon" href="images/NeverDontGiveUpDev_Logo_NDGU.Dev_Fav-icon.png">
+
+    <title>Pixabay</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="https://fredidi.github.io/Pixabay3.11/"><img src="images/NeverDontGiveUpDev_Logo_NDGU.Dev_Icon.png"></a>
+        </div>
+        <h1>Pixabay - Remake by Frida and Fredrik</h1>
+
+        <div id="search-layout">
+            <form class="search-bar-button">
+                <input id="input" type="text" placeholder="Search for images..." autofocus="">
+                
+                <button id="search-button" type="submit">
+                    <img src="images/outline_search_black_24dp.png" alt="Search-button">
+                </button>
+                
+            </form>
+            <div class="dropdown">
+                <select id="myDropdown">
+                    <option value="any-color">All colors</option>
+                    <option value="grayscale">Grayscale</option>
+                    <option value="transparent">Transparent</option>
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="turquoise">Turquoise</option>
+                    <option value="blue">Blue</option>
+                    <option value="lilac">Lilac</option>
+                    <option value="pink">Pink</option>
+                    <option value="white">White</option>
+                    <option value="gray">Gray</option>
+                    <option value="black">Black</option>
+                    <option value="brown">Brown</option>
+                </select>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="img-show">
+
+        </div>
+
+        <div id="navigation">
+                <button id="prev" name="inactive" class="inactive" onclick="prevBtn()" type="button">Previous page</button>
+                <button id="next" name="active" class="inactive" onclick="nextBtn()" type="button">Next page</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-start">
+            <br>
+            <a href="https://fredidi.github.io/Pixabay3.11/"><img src="images/NeverDontGiveUpDev_Logo_white_NDGU.Dev.png" alt="Header-Logo"></a>
+            
+        </div>
+        <div class="footer-center">
+            <h3>OUR SOCIAL MEDIA</h3>
+            <p><b>LinkedIn:</b>&emsp;
+                <a href="https://www.linkedin.com/in/fridawesterdahl/" target="_blank">Frida</a>
+                &ensp;|&ensp;<a href="https://www.linkedin.com/in/fredriklam/" target="_blank">Fredrik</a>
+            <br>
+            <b>GitHub:</b>&emsp; &ensp;
+                <a href="https://github.com/FridaWesterdahl" target="_blank">Frida</a>
+                &ensp;|&ensp;<a href="https://github.com/fredidi" target="_blank">Fredrik</a></p>
+            
+            <p class="footer-desktop">© 2022. School Assignment. version.3.11</p>
+        </div>
+        <div class="footer-end">
+            <h3>THANKS TO</h3>
+            <a href="https://www.teknikhogskolan.se" target="_blank"><img src="images/Logo_white_TH.png"></a>
+            <a href="https://www.pixabay.com" target="_blank"><img src="images/Logo_white_Pixabay.png"></a>
+        
+            <p class="footer-mobile">© 2022. School Assignment. version.3.11</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

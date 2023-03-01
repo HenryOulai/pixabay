@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Rampart+One&display=swap" rel="stylesheet">
+    
+    <title>Pixabay</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Pixabay search engine</h1>
+
+        <div id="Search-display">
+            <form class="search-bar-button">
+                <input id="input" type="text" placeholder="Search for pixabay photos..." autofocus="">
+                
+                <button id="search-button" type="submit">
+                    <img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" alt="Search-button">
+                </button>
+                
+            </form>
+            <div class="search-container">
+                <label for="mysearch-container">Color options:</label>
+                <select id="mysearch-container">
+                  <option value="any-color">All colors</option>
+                  <option value="monochrome">Monochrome</option>
+                  <option value="red">Red</option>
+                  <option value="orange">Orange</option>
+                  <option value="yellow">Yellow</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                  <option value="pink">Pink</option>
+                  <option value="white">White</option>
+                  <option value="gray">Gray</option>
+                  <option value="black">Black</option>
+                  <option value="brown">Brown</option>
+                </select>
+              </div>
+              
+        </div>
+
+    </header>
+
+    <main>
+        <div id="img-show">
+
+        </div>
+
+        <div id="direction">
+                <button id="prev" name="inactive" class="inactive" onclick="prevBtn()" type="button">Previous page</button>
+                <button id="next" name="active" class="inactive" onclick="nextBtn()" type="button">Next page</button>
+        </div>
+    </main>
+</body>
+
+</html>

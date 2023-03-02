@@ -38,7 +38,7 @@ function search() {
       }
       else {
         console.log('Empty input');
-        document.querySelector("#img-show").textContent = '⚠️ Unrecognized text. Please try again!'
+        document.querySelector("#img-show").textContent = 'Unrecognized text. Please try again!'
         document.getElementsByName("active")[0].setAttribute('class', 'inactive');
         document.getElementsByName("inactive")[0].setAttribute('class', 'inactive');
       }
